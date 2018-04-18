@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.fjesus.whatsclone.activity.CadastraUsuarioActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+    <EditText
+        android:id="@+id/wnome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"/>
+
+        <EditText
+            android:id="@+id/wemail"
+            android:layout_below="@+id/wnome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"/>
+
+        <EditText
+            android:id="@+id/wsenhacad"
+            android:layout_below="@+id/wemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"/>
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wsenhacad"
+            android:text="Cadastrar"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

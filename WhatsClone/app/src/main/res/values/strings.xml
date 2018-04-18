@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WhatsClone</string>
+    <string name="item_configuracoes">Configurações</string>
+    <string name="item_sair">Sair</string>
+    <string name="item_pesquisar">Pesquisar</string>
+    <string name="item_add">Novo Contato</string>
+    <string name="title_activity_conversas2">Conversas2Activity</string>
+    <string name="title_activity_conversa">ConversaActivity</string>
+</resources>
